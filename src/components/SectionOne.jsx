@@ -1,43 +1,28 @@
 import Button from './Button';
 import ButtonAlt from './ButtonAlt';
+import Header from './Header';
 
 const SectionOne = () => {
   return (
-    <section className="h-screen">
+    <section className="flex flex-col h-screen ">
       <img
         src="./heroImage.png"
-        className=" absolute top-0 right-0 h-screen -z-10 "
+        className="absolute top-0 right-0 hidden h-screen -z-10 lg:flex"
       />
-      <header className="flex pt-10 items-center justify-between">
-        <nav>
-          <ul className="flex text-sm gap-10 text-text-light">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <p className="font-bold text-2xl text-text-dark  ">LANDING</p>
-        <Button buttonText="Buy Now" />
-      </header>
+      <Header />
 
-      <article className="flex flex-col justify-center gap-2 w-1/2  my-auto pt-28  ">
-        <h1 className="font-medium text-5xl text-primary leading-[66px] tracking-wide ">
+      <article className="flex flex-col justify-center gap-2 my-auto sm:pt-0 lg:w-1/2">
+        <h1 className="font-medium text-3xl sm:text-4xl md:text-5xl text-primary md:leading-[66px] tracking-wide ">
           Introduce Your Product Quickly & Effectively
         </h1>
-        <p className="text-text-light leading-7 pb-5">
+        <p className="pb-5 leading-7 text-text-light">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
           felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
           consequat massa quis enim.
         </p>
-        <div className="flex gap-10">
+        <div className="flex flex-col items-center justify-center gap-10 sm:flex-row lg:justify-start">
           <Button buttonText="Purchase UI Kit" />
           <ButtonAlt buttonText="Learn More" />
         </div>

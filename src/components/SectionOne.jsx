@@ -1,12 +1,13 @@
 import Button from './Button';
 import ButtonAlt from './ButtonAlt';
 import Header from './Header';
+import IMAGES from '../images/Images';
 
 const SectionOne = () => {
   return (
     <section className="flex flex-col h-screen ">
       <img
-        src="./heroImage.png"
+        src={IMAGES.heroImage}
         className="absolute top-0 right-0 hidden h-screen -z-10 lg:flex"
       />
       <Header />

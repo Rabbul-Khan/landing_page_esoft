@@ -1,8 +1,10 @@
+import IMAGES from '../images/Images';
+
 const SectionFour = () => {
   return (
     <section className="flex flex-col items-center justify-center grid-cols-2 gap-20 pt-40 lg:grid xl:pt-52">
       <img
-        src="/womanManMobile.svg"
+        src={IMAGES.womanManMobile}
         className="mx-auto max-w-72 md:max-w-full "
       />
       <article className="flex flex-col gap-5 sm:gap-10 ">

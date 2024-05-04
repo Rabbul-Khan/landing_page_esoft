@@ -1,3 +1,4 @@
+import IMAGES from '../images/Images';
 import Button from './Button';
 
 const Footer = () => {
@@ -25,27 +26,27 @@ const Footer = () => {
         <ul className="flex gap-5">
           <li>
             <a href="#">
-              <img src="/facebookIcon.svg" />
+              <img src={IMAGES.iconFacebook} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/linkedInIcon.svg" />
+              <img src={IMAGES.iconLinkedIn} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/twitterIcon.svg" />
+              <img src={IMAGES.iconTwitter} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/youtubeIcon.svg" />
+              <img src={IMAGES.iconYoutube} />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/instagramIcon.svg" />
+              <img src={IMAGES.iconInstagram} />
             </a>
           </li>
         </ul>

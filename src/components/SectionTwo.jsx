@@ -1,4 +1,5 @@
 import SectionTwo_FeatureBox from './SectionTwo_FeatureBox';
+import IMAGES from '../images/Images';
 
 const SectionTwo = () => {
   return (
@@ -20,7 +21,7 @@ const SectionTwo = () => {
         </div>
       </article>
       <img
-        src="./imageOne.png"
+        src={IMAGES.womanMobile}
         width={500}
         height={500}
         className="mx-auto max-w-72 md:max-w-full "

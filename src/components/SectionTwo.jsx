@@ -3,7 +3,7 @@ import IMAGES from '../images/Images';
 
 const SectionTwo = () => {
   return (
-    <section className="flex flex-col items-center grid-cols-2 gap-10 xl:grid lg:pt-20 xl:pt-52 ">
+    <section className="flex flex-col items-center grid-cols-2 gap-10 xl:grid lg:pt-20 ">
       <article className="flex flex-col order-1 gap-10 my-auto xl:order-2">
         <h2 className="text-4xl font-medium text-primary">
           Light, fast and powerful

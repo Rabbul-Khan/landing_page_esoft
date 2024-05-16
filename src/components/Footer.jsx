@@ -12,14 +12,14 @@ const Footer = () => {
 
       <div className="flex flex-col items-center justify-between gap-10 pt-5 sm:gap-0 sm:flex-row">
         <ul className="flex text-[#929ECC] text-sm gap-10">
-          <li>
+          <li className="hover:font-bold hover:text-primary hover:underline hover:underline-offset-2">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="hover:font-bold hover:text-primary hover:underline hover:underline-offset-2">
             <a href="#">About</a>
           </li>
 
-          <li>
+          <li className="hover:font-bold hover:text-primary hover:underline hover:underline-offset-2">
             <a href="#">Contact</a>
           </li>
         </ul>

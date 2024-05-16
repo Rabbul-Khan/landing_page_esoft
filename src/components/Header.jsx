@@ -7,13 +7,13 @@ const Header = () => {
       </a>
       <nav className="lg:-order-2">
         <ul className="flex gap-10 text-sm text-text-light ">
-          <li>
+          <li className="hover:font-bold hover:underline hover:underline-offset-2 hover:text-primary">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="hover:font-bold hover:underline hover:underline-offset-2 hover:text-primary">
             <a href="#">About</a>
           </li>
-          <li>
+          <li className="hover:font-bold hover:underline hover:underline-offset-2 hover:text-primary">
             <a href="#">Contact</a>
           </li>
         </ul>

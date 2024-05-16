@@ -5,7 +5,7 @@ import IMAGES from '../images/Images';
 
 const SectionOne = () => {
   return (
-    <section className="flex flex-col h-screen ">
+    <section className="flex flex-col max-h-full gap-10 md:gap-14 lg:h-screen lg:gap-0">
       <img
         src={IMAGES.heroImage}
         className="absolute top-0 right-0 hidden h-screen -z-10 lg:flex"
